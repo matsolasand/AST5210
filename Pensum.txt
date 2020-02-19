@@ -1,0 +1,81 @@
+AST5210 Spring semester 2020.
+
+
+1. Basic concepts
+
+What units are common for opacity? intensity? emissivity?  Explain in
+words the meaning of opacity, absorption, scattering, emissivity, mean
+intensity, source function, optical depth. Why is it practical to
+define the source function? Interpret the different terms in the
+equation of radiative transfer.
+
+Give the solution of the transfer equation for a homogeneous slab,
+small optical depth.  Give the formal solution for the outgoing
+intensity for a semi-infinite 1D atmosophere. Describe in words the
+origin of the two factors inside the integral.
+
+What is the Eddington-Barbier relation?
+
+
+2. Numerical integration
+
+Explain numerical integration (quadrature). Trapezoidal and Simpson
+methods, Gaussian quadrature, Gauss-Legendre, Gauss-Laguerre
+
+
+3. Source function with scattering
+
+Explain why there are two terms in the source function when scattering
+is considered.  Describe some methods of direct integration of the
+formal solution.  When can direct integration be employed? What is
+lambda iteration?  Why does lambda iteration fail when scattering
+dominates? Give some cases when scattering dominates the opacity. What
+is shooting?
+
+
+4. Feautrier
+
+Why is it possible to use Feautrier's method to solve the transfer
+equation with scattering present? What is the basic difference between
+Feautrier's method and a direct integration? Outline the basic steps
+in the Feautrier method.
+
+
+5. ALI
+
+Explain the principles behind Accelerated Lambda iteration (ALI).
+What is Sharmer's method? Olson-Auer-Buchler operator?
+
+
+6. Convergence acceleration
+
+Explain the basic principle behind Ng acceleration (full derivation not necessary).
+
+
+7. Linearization
+
+Explain linearization, Newton-Raphson, convergence radius.  Specify
+the two operator perturbation steps (1. error(n)=?  2. delta(x)(n)=?)
+resulting from linearization of the following equations:
+
+a) x^3 = 2
+b) 4*x^2 + x*y + y^2 = 16
+   2*x + x*y^2 = 9
+
+
+8. non-LTE
+
+How is the number density of the different energy levels in an atom
+determined in LTE? in non-LTE? Why is non-LTE so much more
+complicated?  Relate locality/non-locality to LTE/non-LTE. How is the
+coupling between variables in the two cases? When can we expect LTE to
+be a good approximation? Where in a stellar atmosphere do we expect
+such conditions?
+
+What processes are involved in the statistical equilibrium?  Describe
+how the radiative transfer and the statistical equilibrium couple.
+Describe the principles of linearizing the statistical equilibrium
+equations.  Why don't we get any linearization terms from collisional
+rates? What is the complication caused by the radiation? How do we
+eliminate the perturbation in intensity from the statistical
+equilbrium equations?
